@@ -71,3 +71,11 @@ main > * {
 /* media queries */
 
 /* YOUR CODE HERE */
+@media screen and (max-width: 768px ) {
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width:20em;
+  }
+}
